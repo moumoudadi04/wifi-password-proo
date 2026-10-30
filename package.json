@@ -4,7 +4,7 @@
   "description": "wifi password application",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p www && echo '<HTML><BODY>Wifi Password Pro</BODY></HTML>' > www/index.html"
+    "build": "mkdir -p www && cp -r src/* www/"
   },
   "dependencies": {
     "@capacitor/android": "^5.0.0",
